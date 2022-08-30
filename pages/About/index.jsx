@@ -1,6 +1,7 @@
 import React from "react";
 import { css} from '@emotion/css'
-import Header from "../Components/Header";
+import Typography from '@mui/material/Typography';
+import Header from "../Header";
 
 function About() {
     return(
@@ -17,7 +18,7 @@ font-family: 'Edu VIC WA NT Beginner', cursive;
      font-size:25px;
      
    `}> About Our Store</div>
-        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere necessitatibus praesentium inventore magnam quisquam accusantium doloribus modi exercitationem placeat! Amet itaque consequatur pariatur nulla quam. Quidem suscipit modi, totam voluptas nemo veritatis sunt veniam aut esse earum libero voluptates. Consequuntur minima soluta aliquid vitae at a nostrum quaerat non facilis!</div>
+        <Typography variant="h4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere necessitatibus praesentium inventore magnam quisquam accusantium doloribus modi exercitationem placeat! Amet itaque consequatur pariatur nulla quam. Quidem suscipit modi, totam voluptas nemo veritatis sunt veniam aut esse earum libero voluptates. Consequuntur minima soluta aliquid vitae at a nostrum quaerat non facilis!</Typography>
         
         </div>
     )

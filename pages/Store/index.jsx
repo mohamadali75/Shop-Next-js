@@ -1,8 +1,10 @@
 import React from "react";
-import Card from "../Components/card";
-import Header from "../Components/Header";
+
+import Card from "../card";
+import Header from "../Header";
 
 function Store() {
+    
     return(
         <div>
         <Header/>

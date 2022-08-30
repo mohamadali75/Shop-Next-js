@@ -4,7 +4,9 @@ import { css} from '@emotion/css'
 import Link from 'next/link'
 
 
+
 export default function Home() {
+  
   return (
     <div>
       <Head>
@@ -40,3 +42,5 @@ export default function Home() {
     </div>
   )
 }
+
+

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textarea test 1`] = `
+<textarea
+  className="css-10s24d6"
+  cols="30"
+  rows="4"
+/>
+`;

@@ -1,6 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import { css} from '@emotion/css'
 import React from 'react'
+
 
 class MyDocument extends Document {
   render() {
